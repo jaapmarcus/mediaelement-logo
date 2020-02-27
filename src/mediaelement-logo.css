@@ -1,0 +1,12 @@
+.mejs_logo_layer{
+	z-index: 1;
+}
+
+.mejs_logo_link{
+	display: block;
+	position: absolute;
+	top:0px;
+	right: 0px;
+	padding:10px;
+	z-index: 1;
+}
