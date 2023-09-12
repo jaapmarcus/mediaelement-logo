@@ -12,7 +12,7 @@ This plugin create a new layer and add the logo inside
 
 ## Usage
 ```javascript
-	features: [..., 'ima'],
+	features: [..., 'logo'],
 	logoOptions : {'href' : 'https://example.org', 'src' : 'https://example.org/logo.png', 'height' : 32, 'width' : 32, 'target' : '_blank'}
 ```
 
