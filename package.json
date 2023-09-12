@@ -1,0 +1,30 @@
+{
+  "name": "mediaelement-logo",
+  "version": "1.0.0",
+  "description": "Adds a new layer over the video with a logo inside (Clickable and configureble)",
+  "main": "./src/mediaelement-logo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/esbuild/bin/esbuild --minify src/mediaelement-logo.js --outdir=./build/ && ./node_modules/esbuild/bin/esbuild --minify src/mediaelement-logo.css --outdir=./build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaapmarcus/mediaelement-logo.git"
+  },
+  "keywords": [
+    "medieelement",
+    "mediaelementjs",
+    "player",
+    "video",
+    "logo"
+  ],
+  "author": "Jaap Marcus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaapmarcus/mediaelement-logo/issues"
+  },
+  "homepage": "https://github.com/jaapmarcus/mediaelement-logo#readme",
+  "dependencies": {
+    "esbuild": "^0.19.2"
+  }
+}
